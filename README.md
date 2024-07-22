@@ -13,7 +13,7 @@ This is quite a limited dataset for speech enhancement. My goal for this project
 
 **ALGORITHM** 
 This algorithm takes an Short Time Fourier Transform (STFT) of the audio files to return the transformed signal as a 2D array of dimensions time and frequency.
-The transformed signal is complex, but the algorithm only operates on the amplitude. The amplitude is passed through a softmask + UNet algorithm. T
+The transformed signal is complex, but the algorithm only operates on the amplitude. The amplitude is passed through a softmask + UNet algorithm. 
 
 
 
